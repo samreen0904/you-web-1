@@ -3,6 +3,7 @@
     --color-2: #7C4EE4;
     --color-3: #333333;
     --color-4: #999999;
+    --color-5: #666666;
 
 }
 @font-face {
@@ -13,6 +14,10 @@
     color: var(--color-4);
 
 }
+.color-5-t{
+color: var(--color-5);
+}
+
 .font{
     font-family: rewelye;
 }
