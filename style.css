@@ -1,14 +1,18 @@
 :root{
-    --color1: #FFFFFF;
+    --color1:  #FFFFFF;
     --color-2: #7C4EE4;
     --color-3: #333333;
     --color-4: #999999;
     --color-5: #666666;
+    --color-6: #150E06;
 
 }
 @font-face {
     font-family: "rewelye";
     src: url(./fonts/rewelye);
+}
+.color-6-t{
+    color: var(--color-6) !important;
 }
 .color-4-t{
     color: var(--color-4);
@@ -65,6 +69,6 @@ color: var(--color-5);
     font-size: small;
 }
 .fs-16{
-    font-size: 12px;
+    font-size: 12px !important;
 }
 
